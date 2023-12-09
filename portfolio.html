@@ -61,162 +61,191 @@
         </address>
       </div>
     </header>
-    <main class="main-container-portfolio">
+    <main>
       <!-- buttons section -->
-      <section class="section-one-container">
-        <h1>f</h1>
-        <ul class="sec-one-list-of-buttons list">
-          <!-- first button -->
-          <li>
-            <button class="sec-one-button" type="button">All</button>
-          </li>
-          <!-- second button -->
-          <li>
-            <button class="sec-one-button" type="button">Web Site</button>
-          </li>
-          <!-- third button -->
-          <li>
-            <button class="sec-one-button" type="button">App</button>
-          </li>
-          <!-- fourth button -->
-          <li>
-            <button class="sec-one-button" type="button">Design</button>
-          </li>
-          <!-- fifth button -->
-          <li>
-            <button class="sec-one-button" type="button">Marketing</button>
-          </li>
-        </ul>
+      <section class="porfolio section">
+        <div class="container">
+          <h1 class="visually-hidden">Portfolio</h1>
+          <ul class="portfolio-btn-list list">
+            <!-- first button -->
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">All</button>
+            </li>
+            <!-- second button -->
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Web Site</button>
+            </li>
+            <!-- third button -->
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">App</button>
+            </li>
+            <!-- fourth button -->
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Design</button>
+            </li>
+            <!-- fifth button -->
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Marketing</button>
+            </li>
+          </ul>
 
-        <!-- list of portfolio projects -->
-        <ul class="list-of-projects-sec-two list">
-          <!-- first card -->
-          <li class="project-container">
-            <a class="project-link link" href="">
-              <img
-                class="project-image"
-                src="./images/1-banking.jpg"
-                width="360"
-                height="300"
-                alt="bankingapp"
-              />
-              <h2 class="project-header">Banking App Interface Concept</h2>
-              <p class="project-description">App</p>
-            </a>
-          </li>
-          <!-- second card -->
-          <li class="project-container">
-            <a class="project-link link" href="">
-              <img
-                class="project-image"
-                src="./images/2-cashless.jpg"
-                width="360"
-                height="300"
-                alt="cashlesspayment"
-              />
-              <h2 class="project-header">Cashless Payment</h2>
-              <p class="project-description">Marketing</p>
-            </a>
-          </li>
-          <!-- third card -->
-          <li class="project-container">
-            <a class="project-link link" href="">
-              <img
-                class="project-image"
-                src="./images/3-meditation.jpg"
-                width="360"
-                height="300"
-                alt="meditationapp"
-              />
-              <h2 class="project-header">Meditation App</h2>
-              <p class="project-description">App</p>
-            </a>
-          </li>
-          <!-- fourth card -->
-          <li class="project-container">
-            <a class="project-link link" href="">
-              <img
-                class="project-image"
-                src="./images/4-taxi.jpg"
-                width="360"
-                height="300"
-                alt="taxiservice"
-              />
-              <h2 class="project-header">Taxi Service</h2>
-              <p class="project-description">Marketing</p>
-            </a>
-          </li>
-          <!-- fifth card -->
-          <li class="project-container">
-            <a class="project-link link" href="">
-              <img
-                class="project-image"
-                src="./images/5-screen.jpg"
-                width="360"
-                height="300"
-                alt="ScreenIllustrations"
-              />
-              <h2 class="project-header">Screen Illustrations</h2>
-              <p class="project-description">Design</p>
-            </a>
-          </li>
-          <!-- sixth card -->
-          <li class="project-container">
-            <a class="project-link link" href="">
-              <img
-                class="project-image"
-                src="./images/6-online.jpg"
-                width="360"
-                height="300"
-                alt="onlinecourse"
-              />
-              <h2 class="project-header">Online Courses</h2>
-              <p class="project-description">Marketing</p>
-            </a>
-          </li>
-          <!-- seventh card -->
-          <li class="project-container">
-            <a class="project-link link" href="">
-              <img
-                class="project-image"
-                src="./images/7-instagram.jpg"
-                width="360"
-                height="300"
-                alt="igstoriesconcept"
-              />
-              <h2 class="project-header">Instagram Stories Concept</h2>
-              <p class="project-description">Design</p>
-            </a>
-          </li>
-          <!-- eight card -->
-          <li class="project-container">
-            <a class="project-link link" href="">
-              <img
-                class="project-image"
-                src="./images/8-organic.jpg"
-                width="360"
-                height="300"
-                alt="organicfood"
-              />
-              <h2 class="project-header">Organic Food</h2>
-              <p class="project-description">Web Site</p>
-            </a>
-          </li>
-          <!-- ninth card -->
-          <li class="project-container">
-            <a class="project-link link" href="">
-              <img
-                class="project-image"
-                src="./images/9-fresh.jpg"
-                width="360"
-                height="300"
-                alt="freshcoffee"
-              />
-              <h2 class="project-header">Fresh Coffee</h2>
-              <p class="project-description">Web Site</p>
-            </a>
-          </li>
-        </ul>
+          <!-- list of portfolio projects -->
+          <ul class="portfolio-card-list list">
+            <!-- first card -->
+            <li class="portfolio-card-item">
+              <a class="portfolio-card-link link" href="">
+                <img
+                  src="./images/1-banking.jpg"
+                  width="360"
+                  height="300"
+                  alt="bankingapp"
+                />
+                <div class="portfolio-card-wrap">
+                  <h2 class="portfolio-card-subtitle section-subtitle">
+                    Banking App Interface Concept
+                  </h2>
+                  <p class="portfolio-card-text section-text">App</p>
+                </div>
+              </a>
+            </li>
+            <!-- second card -->
+            <li class="portfolio-card-item">
+              <a class="portfolio-card-link link" href="">
+                <img
+                  src="./images/2-cashless.jpg"
+                  width="360"
+                  height="300"
+                  alt="cashlesspayment"
+                />
+                <div class="portfolio-card-wrap">
+                  <h2 class="portfolio-card-subtitle section-subtitle">
+                    Cashless Payment
+                  </h2>
+                  <p class="portfolio-card-text section-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <!-- third card -->
+            <li class="portfolio-card-item">
+              <a class="portfolio-card-link link" href="">
+                <img
+                  src="./images/3-meditation.jpg"
+                  width="360"
+                  height="300"
+                  alt="meditationapp"
+                />
+                <div class="portfolio-card-wrap">
+                  <h2 class="portfolio-card-subtitle section-subtitle">
+                    Meditation App
+                  </h2>
+                  <p class="portfolio-card-text section-text">App</p>
+                </div>
+              </a>
+            </li>
+            <!-- fourth card -->
+            <li class="portfolio-card-item">
+              <a class="portfolio-card-link link" href="">
+                <img
+                  src="./images/4-taxi.jpg"
+                  width="360"
+                  height="300"
+                  alt="taxiservice"
+                />
+                <div class="portfolio-card-wrap">
+                  <h2 class="portfolio-card-subtitle section-subtitle">
+                    Taxi Service
+                  </h2>
+                  <p class="portfolio-card-text section-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <!-- fifth card -->
+            <li class="portfolio-card-item">
+              <a class="portfolio-card-link link" href="">
+                <img
+                  src="./images/5-screen.jpg"
+                  width="360"
+                  height="300"
+                  alt="ScreenIllustrations"
+                />
+                <div class="portfolio-card-wrap">
+                  <h2 class="portfolio-card-subtitle section-subtitle">
+                    Screen Illustrations
+                  </h2>
+                  <p class="portfolio-card-text section-text">Design</p>
+                </div>
+              </a>
+            </li>
+            <!-- sixth card -->
+            <li class="portfolio-card-item">
+              <a class="portfolio-card-link link" href="">
+                <img
+                  src="./images/6-online.jpg"
+                  width="360"
+                  height="300"
+                  alt="onlinecourse"
+                />
+                <div class="portfolio-card-wrap">
+                  <h2 class="portfolio-card-subtitle section-subtitle">
+                    Online Courses
+                  </h2>
+                  <p class="portfolio-card-text section-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <!-- seventh card -->
+            <li class="portfolio-card-item">
+              <a class="portfolio-card-link link" href="">
+                <img
+                  src="./images/7-instagram.jpg"
+                  width="360"
+                  height="300"
+                  alt="igstoriesconcept"
+                />
+                <div class="portfolio-card-wrap">
+                  <h2 class="portfolio-card-subtitle section-subtitle">
+                    Instagram Stories Concept
+                  </h2>
+                  <p class="portfolio-card-text section-text">Design</p>
+                </div>
+              </a>
+            </li>
+            <!-- eight card -->
+            <li class="portfolio-card-item">
+              <a class="portfolio-card-link link" href="">
+                <img
+                  src="./images/8-organic.jpg"
+                  width="360"
+                  height="300"
+                  alt="organicfood"
+                />
+                <div class="portfolio-card-wrap">
+                  <h2 class="portfolio-card-subtitle section-subtitle">
+                    Organic Food
+                  </h2>
+                  <p class="portfolio-card-text section-text">Web Site</p>
+                </div>
+              </a>
+            </li>
+            <!-- ninth card -->
+            <li class="portfolio-card-item">
+              <a class="portfolio-card-link link" href="">
+                <img
+                  src="./images/9-fresh.jpg"
+                  width="360"
+                  height="300"
+                  alt="freshcoffee"
+                />
+                <div class="portfolio-card-wrap">
+                  <h2 class="portfolio-card-subtitle section-subtitle">
+                    Fresh Coffee
+                  </h2>
+                  <p class="portfolio-card-text section-text">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
