@@ -582,7 +582,8 @@ body {
 
 
 .portfolio-section {
-padding: 96px 0 120px 0;
+padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .portfolio-btn-list {
