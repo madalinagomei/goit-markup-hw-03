@@ -101,6 +101,8 @@ body {
 
 .address-list {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 
 .address-link {
@@ -581,7 +583,7 @@ body {
 
 
 .portfolio-section {
-    padding: 96px 0 120px;
+padding: 96px 0 120px 0;
 }
 
 .portfolio-btn-list {
