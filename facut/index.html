@@ -2,59 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <title>WebStudio</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- header section-->
     <header class="header">
       <div class="container header-container">
-        <!-- navigation bar -->
         <nav class="header-navigation">
-          <!-- logo -->
-          <a class="logo link header-logo" href="./index.html"
+          <a href="" class="logo link header-logo"
             >Web<span class="logo-dark">Studio</span>
           </a>
-          <!-- studio, portofolio, contacts -->
           <ul class="header-menu-list list">
             <li class="header-menu-item">
-              <a class="header-menu-link link" href="./index.html">Studio</a>
+              <a href="./index.html" class="header-menu-link link">Studio</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-link link" href="./portfolio.html"
+              <a href="./portfolio.html" class="header-menu-link link"
                 >Portfolio</a
               >
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-link link" href="">Contacts</a>
+              <a href="" class="header-menu-link link">Contacts</a>
             </li>
           </ul>
         </nav>
-        <!-- contact adress section -->
-        <address class="address-container">
-          <ul class="address-list list">
-            <li>
-              <a class="address-link link" href="mailto:info@devstudio.com"
+        <address class="header-contacts">
+          <ul class="header-contacts-list list">
+            <li class="header-contacts-item">
+              <a href="" class="header-contacts-link link"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
-              <a class="address-link link" href="tel:+110001111111"
+            <li class="header-contacts-item">
+              <a href="" class="header-contacts-link link"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -62,20 +57,17 @@
         </address>
       </div>
     </header>
-    <main class="main-container-index">
-      <!-- hero image section -->
+    <main>
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button type="button" class="hero-btn">Order Service</button>
         </div>
       </section>
-      <!-- section 1 list of qualities of the webstudio-->
-      <section class="first-section-container">
+      <section class="features section">
         <div class="container">
-          <h2 class="visually-hidden"></h2>
-          <ul class="first-section-list list">
-            <!-- first quality -->
+          <h2 class="visually-hidden">Features</h2>
+          <ul class="features-list list">
             <li class="features-item">
               <h3 class="features-subtitle section-subtitle">Strategy</h3>
               <p class="features-item-text section-text">
@@ -83,7 +75,6 @@
                 the perfect and creative solution.
               </p>
             </li>
-            <!-- second quality -->
             <li class="features-item">
               <h3 class="features-subtitle section-subtitle">Punctuality</h3>
               <p class="features-item-text section-text">
@@ -91,7 +82,6 @@
                 within the shortest possible time.
               </p>
             </li>
-            <!-- third quality -->
             <li class="features-item">
               <h3 class="features-subtitle section-subtitle">Diligence</h3>
               <p class="features-item-text section-text">
@@ -99,7 +89,6 @@
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <!-- fourth quality -->
             <li class="features-item">
               <h3 class="features-subtitle section-subtitle">Technologies</h3>
               <p class="features-item-text section-text">
@@ -110,32 +99,30 @@
           </ul>
         </div>
       </section>
-      <!-- section 2 doing -->
       <section class="doing section">
         <div class="container">
           <h2 class="doing-title section-title">What are we doing</h2>
-          <!-- images for the second section -->
           <ul class="doing-list list">
             <li class="doing-item">
               <img
-                src="./images/img-1.jpg"
-                alt="monitorimage"
+                src="./images/doingimg1.jpeg"
+                alt="doing picture"
                 width="360"
                 height="300"
               />
             </li>
             <li class="doing-item">
               <img
-                src="./images/img-2.jpg"
-                alt="imagewithmultiplephones"
+                src="./images/doingimg2.jpeg"
+                alt="doing picture"
                 width="360"
                 height="300"
               />
             </li>
             <li class="doing-item">
               <img
-                src="./images/img-3.jpg"
-                alt="imagewithaphone"
+                src="./images/doingimg3.jpeg"
+                alt="doing picture"
                 width="360"
                 height="300"
               />
@@ -143,55 +130,57 @@
           </ul>
         </div>
       </section>
-      <!-- section 3 description of the team -->
       <section class="team section">
         <div class="container">
           <h2 class="team-title section-title">Our Team</h2>
-          <!-- list of members of the team with description -->
           <ul class="team-list list">
-            <!-- first member -->
             <li class="team-item">
               <img
-                src="./images/ourteam(1).jpg"
-                alt="firstmember"
+                src="./images/teamimg1.jpeg"
+                alt="teammate photo"
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle section-subtitle">Mark Guerrero</h3>
-              <p class="team-item-text section-text">Product Designer</p>
+              <div class="team-item-wrap">
+                <h3 class="team-subtitle section-subtitle">Mark Guerrero</h3>
+                <p class="team-item-text section-text">Product Designer</p>
+              </div>
             </li>
-            <!-- second member -->
             <li class="team-item">
               <img
-                src="./images/ourteam(2).jpg"
-                alt="secondmember"
+                src="./images/teamimg2.jpeg"
+                alt="teammate photo"
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle section-subtitle">Tom Ford</h3>
-              <p class="team-item-text section-text">Frontend Developer</p>
+              <div class="team-item-wrap">
+                <h3 class="team-subtitle section-subtitle">Tom Ford</h3>
+                <p class="team-item-text section-text">Frontend Developer</p>
+              </div>
             </li>
-            <!-- third member -->
             <li class="team-item">
               <img
-                src="./images/ourteam(3).jpg"
-                alt="thirdmember"
+                src="./images/teamimg3.jpeg"
+                alt="teammate photo"
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle section-subtitle">Camila Garcia</h3>
-              <p class="team-item-text section-text">Marketing</p>
+              <div class="team-item-wrap">
+                <h3 class="team-subtitle section-subtitle">Camila Garcia</h3>
+                <p class="team-item-text section-text">Marketing</p>
+              </div>
             </li>
-            <!-- fourth member -->
             <li class="team-item">
               <img
-                src="./images/ourteam(4).jpg"
-                alt="fourthmember"
+                src="./images/teamimg3.jpeg"
+                alt="teammate photo"
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle section-subtitle">Daniel Wilson</h3>
-              <p class="team-item-text section-text">UI Designer</p>
+              <div class="team-item-wrap">
+                <h3 class="team-subtitle section-subtitle">Daniel Wilson</h3>
+                <p class="team-item-text section-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -199,9 +188,9 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="logo footer-logo link" href="./index.html"
-          >Web<span class="logo-light">Studio</span></a
-        >
+        <a href="" class="logo footer-logo link"
+          >Web<span class="logo-light">Studio</span>
+        </a>
         <p class="footer-text">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.

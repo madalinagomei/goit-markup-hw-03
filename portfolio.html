@@ -11,48 +11,60 @@
       rel="stylesheet"
     />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <!-- navigation bar -->
-      <nav class="main-navigation-container">
-        <!-- logo -->
-        <a class="logo link" href="./index.html"
-          >Web<span class="part-of-logo">Studio</span>
-        </a>
-        <!-- studio, portofolio, contacts -->
-        <ul class="navigation-list list">
-          <li>
-            <a class="nav-link link" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="nav-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="nav-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- contact adress section -->
-      <address class="address-container">
-        <ul class="address-list list">
-          <li>
-            <a class="address-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="address-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="container header-container">
+        <!-- navigation bar -->
+        <nav class="header-navigation">
+          <!-- logo -->
+          <a class="logo link header-logo" href="./index.html"
+            >Web<span class="logo-dark">Studio</span>
+          </a>
+          <!-- studio, portofolio, contacts -->
+          <ul class="header-menu-list list">
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- contact adress section -->
+        <address class="address-container">
+          <ul class="address-list list">
+            <li>
+              <a class="address-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main class="main-container-portfolio">
       <!-- buttons section -->
       <section class="section-one-container">
-        <h1>DIJIOjdijdisj</h1>
+        <h1>f</h1>
         <ul class="sec-one-list-of-buttons list">
           <!-- first button -->
           <li>
@@ -207,14 +219,16 @@
         </ul>
       </section>
     </main>
-    <footer class="footer-container">
-      <a class="logo link" href="./index.html"
-        >Web<span class="part-of-logo-footer">Studio</span></a
-      >
-      <p class="footer-additional-description">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+    <footer class="footer">
+      <div class="container">
+        <a class="logo footer-logo link" href="./index.html"
+          >Web<span class="logo-light">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
